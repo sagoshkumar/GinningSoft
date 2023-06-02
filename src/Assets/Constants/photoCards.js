@@ -1,0 +1,126 @@
+const PhotoCards = [
+  {
+    id: 1,
+    name: 'Same Wade',
+    title: 'Photographer',
+    // require('../../Assets/Images/TinderSLider/sirio-Ty4f_NOFO60-unsplash.jpg'),
+    // photo: require('../../Assets/Images/TinderSLider/sirio-Ty4f_NOFO60-unsplash.jpg'),
+    photo: [
+      'https://images.pexels.com/photos/792777/pexels-photo-792777.jpeg?cs=srgb&dl=pexels-anastasiya-lobanovskaya-792777.jpg&fm=jpg',
+      'https://images.pexels.com/photos/1024984/pexels-photo-1024984.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+      'https://images.unsplash.com/photo-1613281512736-55bd4a24f0a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3V0ZSUyMGNvdXBsZXxlbnwwfHwwfHw%3D&w=1000&q=80',
+      'https://i.pinimg.com/736x/ee/b8/2c/eeb82c3ffb3e7133cb5547617107a378.jpg',
+      'https://i.pinimg.com/736x/d1/c6/2b/d1c62bcca131991947e7906499a13ea0.jpg',
+    ],
+    key: 'caseex6qfO4TPMYyhorner',
+    kilometer: '111km',
+  },
+  {
+    id: 2,
+    name: 'Aleksander Borzenets',
+    title: 'Photographer',
+    photo: [
+      'https://poetryus.com/wedding-poses-for-couples/couple-photography-poses-pdf',
+      'https://media.weddingz.in/images/0ee33e6709ff04b87409396a441d4fae/15-couple-portrait-ideas-for-getting-framed-4.jpg',
+      'https://img.freepik.com/free-photo/couple-spending-time-together-outdoors_23-2148977549.jpg?w=360',
+      'https://st.depositphotos.com/1037987/5069/i/950/depositphotos_50696813-stock-photo-family-playing-soccer-in-park.jpg',
+    ],
+    key: 'ozda-XbeP0k',
+    kilometer: '2km',
+  },
+  {
+    id: 3,
+    name: 'Don Delfin Espino',
+    title: 'Photographer',
+    photo: [
+      'https://images.unsplash.com/photo-1615860783459-b90de23b4b96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y3V0ZSUyMGNvdXBsZXxlbnwwfHwwfHw%3D&w=1000&q=80',
+      'https://www.finetoshine.com/wp-content/uploads/Couple-DP-2.jpg',
+      'https://images.unsplash.com/photo-1591969851586-adbbd4accf81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y291cGxlJTIwaW4lMjBsb3ZlfGVufDB8fDB8fA%3D%3D&w=1000&q=80',
+      'https://img.freepik.com/free-photo/couple-spending-time-together-outdoors_23-2148977549.jpg?w=360',
+    ],
+    key: 'nBywXevf_jE-',
+    kilometer: '13km',
+  },
+  {
+    id: 4,
+    name: 'Eduardo Dutra',
+    title: 'Photographer',
+    photo: [
+      'https://loveshayariimages.in/wp-content/uploads/2021/10/1080p-Girlfriend-Whatsapp-Profile-Images.jpg',
+      'https://images.unsplash.com/photo-1481841580057-e2b9927a05c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y291cGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80',
+      'https://i.pinimg.com/564x/2d/69/81/2d698175f210cd00b315ad3a163da0f1.jpg',
+      'https://media.weddingz.in/images/0ee33e6709ff04b87409396a441d4fae/15-couple-portrait-ideas-for-getting-framed-4.jpg',
+    ],
+    key: 'ZHy0efLnzVc',
+    kilometer: '16km',
+  },
+  // {
+  //   name: 'Wesley Tingey',
+  //   title: 'Photographer',
+  //   photo: require('../../Assets/Images/TinderSLider/wesley-tingey-TvPCUHten1o-unsplash.jpg'),
+  //   key: 'TvPCUHten1o',
+  //   kilometer: '145km',
+  // },
+  // {
+  //   name: 'Gift Habeshaw',
+  //   title: 'Photographer',
+  //   photo: require('../../Assets/Images/TinderSLider/gift-habeshaw-dlbiYGwEe9U-unsplash.jpg'),
+  //   key: 'dlbiYGwEe9U',
+  //   kilometer: '176km',
+  // },
+  // {
+  //   name: 'Henri Pham',
+  //   title: 'Photographer',
+  //   photo: require('../../Assets/Images/TinderSLider/henri-pham-Ml4tr2WO7JE-unsplash.jpg'),
+  //   key: 'Ml4tr2WO7JE',
+  //   kilometer: '145km',
+  // },
+  // {
+  //   name: 'Nico Marks',
+  //   title: 'Photographer',
+  //   photo: require('../../Assets/Images/TinderSLider/nico-marks-mFcc5b_t74Q-unsplash.jpg'),
+  //   key: 'mFcc5b_t74Q',
+  //   kilometer: '561km',
+  // },
+  // {
+  //   name: 'Sirio',
+  //   title: 'Photographer',
+  //   photo: require('../../Assets/Images/TinderSLider/sirio-Ty4f_NOFO60-unsplash.jpg'),
+  //   key: "Ty4f_NOFO60'",
+  //   kilometer: '564km',
+  // },
+  // {
+  //   name: 'Teymi Townsend',
+  //   title: 'Photographer',
+  //   photo: require('../../Assets/Images/TinderSLider/teymi-townsend-AvLHH8qYbAI-unsplash.jpg'),
+  //   key: "AvLHH8qYbAI'",
+  //   kilometer: '341km',
+  // },
+  // {
+  //   name: 'Caique Silva',
+  //   title: 'Photographer',
+  //   photo: require('../../Assets/Images/TinderSLider/caique-silva-3ujVzg9i2EI-unsplash.jpg'),
+
+  //   key: "3ujVzg9i2EI'",
+  //   kilometer: '461km',
+  // },
+  // {
+  //   name: 'David Yanutenama',
+  //   title: 'Photographer',
+  //   photo: require('../../Assets/Images/TinderSLider/david-yanutama-5AoO7dBurMw-unsplash.jpg'),
+
+  //   key: "5AoO7dBurMw'",
+  //   kilometer: '521km',
+  // },
+  // {
+  //   name: 'Pawel Karniej',
+  //   title: 'Photographer',
+  //   photo: require('../../Assets/Images/TinderSLider/kYov4x7nTtuOIlGu7HKTQw_thumb_138.jpg'),
+
+  //   key: 'kYov4x7nTtuOIlGu7HKTQw',
+  //   kilometer: '761km',
+  //   kilometer: '1km',
+  // },
+];
+
+export default PhotoCards;
